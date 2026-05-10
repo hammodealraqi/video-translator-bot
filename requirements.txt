@@ -1,6 +1,7 @@
 python-telegram-bot==21.6
-yt-dlp==2024.11.18
-openai-whisper==20231117
-deep-translator==1.11.4
-torch==2.1.2
-torchaudio==2.1.2
+yt-dlp
+openai-whisper
+deep-translator
+torch==2.1.2+cpu
+torchaudio==2.1.2+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
