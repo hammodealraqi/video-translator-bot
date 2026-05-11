@@ -89,11 +89,11 @@ async def help_cmd(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         f"• الترجمة الافتراضية: العربية\n"
         f"• استخدم /lang لتغيير اللغة\n\n"
         f"━━━━━━━━━━━━━━━━━━\n"
-        f"👨‍💻 *المطوّر:* {𝑨𝒃𝒐-𝑲𝒂𝒛𝒆𝒎}\n\n"
+        f"👨‍💻 *المطوّر:* {DEVELOPER}\n\n"
         f"📱 *تواصل مع المطوّر:*\n"
-        f"▪️ انستغرام: {https://www.instagram.com/of65i/}\n"
-        f"▪️ تيك توك: {https://www.tiktok.com/@13it_}\n"
-        f"▪️ تيليغرام: @{of65i}"
+        f"▪️ انستغرام: {INSTAGRAM_URL}\n"
+        f"▪️ تيك توك: {TIKTOK_URL}\n"
+        f"▪️ تيليغرام: @{TELEGRAM_USER}"
     )
     await update.message.reply_text(text, parse_mode=ParseMode.MARKDOWN)
 
